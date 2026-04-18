@@ -20,8 +20,12 @@
                 <element inactive_on_update="false" label="Singapore" sequence="4" value="singapore"/>
             </choice>
         </element>
+        <element label="Pick up reminder" max_length="255" name="pick_up_reminder" type="glide_date_time"/>
+        <element label="Overdue count" max_length="255" name="overdue_count" type="integer"/>
+        <element label="Overdue reminder" max_length="255" name="last_overdue_reminder" type="glide_date_time"/>
         <element label="Start date" mandatory="true" max_length="255" name="start_date" type="glide_date_time"/>
         <element label="End date" mandatory="true" max_length="255" name="end_date" type="glide_date_time"/>
+        <element label="Return reminder" max_length="255" name="return_reminder" type="glide_date_time"/>
         <element label="Other" max_length="40" name="others" type="string"/>
     </element>
 </database>

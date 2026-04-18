@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Targeted Communication" name="Targeted Communication">4a789ea27f3032005f58108c3ffa91af</category>
+        <collection>x_cdltd_loaner_r_0_loaner_request</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_cdltd_loaner_r_0.pickUp</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p data-uuid="89810479e8f842068076a771695e52ed">Dear&nbsp;${requested_for},</p>
+<p data-uuid="5fcfab5a214c4437af0e75fdbe47b225">The&nbsp;${item_type} (${cmdb_ci})&nbsp;is available for pick up at&nbsp;${depot}.</p>
+<p data-uuid="0ad552a5a74a41fc8f0a867474da3d14">Your reservation is scheduled to begin&nbsp;${start_date}. Please return the item to the same location you picked it up by&nbsp;${end_date}.</p>
+<p data-uuid="65f145b3de1f41cbb602640dea0c2b3f">You will receive a return reminder notification.</p>
+<p data-uuid="65f145b3de1f41cbb602640dea0c2b3f">${mail_script:x_cdltd_loaner_r_0_loaner_request_script_1}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Loaner Item Pick Up</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Your loaner ${item_type} is ready for pick up</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 12:38:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d4e6902a95403107f440bac6a91afaf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Loaner Item Pick Up</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope>
+        <sys_update_name>sysevent_email_action_8d4e6902a95403107f440bac6a91afaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:31:20</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8d4e6902a95403107f440bac6a91afaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 12:40:57</sys_created_on>
+        <sys_id>c20fa902a95403107f440bac6a91af59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 12:40:57</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
