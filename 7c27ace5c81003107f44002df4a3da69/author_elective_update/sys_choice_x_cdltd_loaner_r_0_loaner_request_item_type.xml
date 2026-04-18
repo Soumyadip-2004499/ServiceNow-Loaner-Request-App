@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-04-17 05:31:00</sys_created_on>
-            <sys_id>02038725e85003107f4476e081c3ed3b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>item_type</sys_name>
             <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2026-04-17 05:31:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ca038725e85003107f4476e081c3ed3a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-04-17 05:31:00</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2026-04-17 05:31:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5a038725e85003107f4476e081c3ed43</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-04-17 05:31:00</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2026-04-17 05:31:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>16038725e85003107f4476e081c3ed4c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-04-17 05:31:00</sys_updated_on>
