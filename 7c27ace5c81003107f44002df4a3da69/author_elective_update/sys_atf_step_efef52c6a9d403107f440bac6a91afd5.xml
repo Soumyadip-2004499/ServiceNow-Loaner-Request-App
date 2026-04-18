@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Set Field Values">587f5a86a9d403107f440bac6a91af7d</copied_from>
+        <description>Set the following values on the form:
+Requested for = Abel Tuter
+and End date = 2026-04-17 00:00:00
+and Start date = 2026-04-18 00:00:00</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 16:14:36</sys_created_on>
+        <sys_id>efef52c6a9d403107f440bac6a91afd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope>
+        <sys_update_name>sys_atf_step_efef52c6a9d403107f440bac6a91afd5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 16:14:36</sys_updated_on>
+        <table>x_cdltd_loaner_r_0_loaner_request</table>
+        <test display_value="My First Loaner Request ATF Test copy copy">efef52c6a9d403107f440bac6a91afcd</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=efef52c6a9d403107f440bac6a91afd5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>efef52c6a9d403107f440bac6a91afd5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 16:14:36</sys_created_on>
+        <sys_id>a7ef52c6a9d403107f440bac6a91afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 16:14:36</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>efef52c6a9d403107f440bac6a91afd5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 16:14:36</sys_created_on>
+        <sys_id>2bef52c6a9d403107f440bac6a91afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 16:14:36</sys_updated_on>
+        <value>x_cdltd_loaner_r_0_loaner_request</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>efef52c6a9d403107f440bac6a91afd5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 16:14:36</sys_created_on>
+        <sys_id>abef52c6a9d403107f440bac6a91afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 16:14:36</sys_updated_on>
+        <value>requested_for=62826bf03710200044e0bfc8bcbe5df1^end_date=2026-04-17 00:00:00^start_date=2026-04-18 00:00:00^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=efef52c6a9d403107f440bac6a91afd5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</application>
+        <file_path/>
+        <instance_id>b082a115971843906ec2301e6253af32</instance_id>
+        <instance_name>nowlearning-nlinst04075311-14ynu-0001</instance_name>
+        <name>sys_atf_step_efef52c6a9d403107f440bac6a91afd5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="Set Field Values">587f5a86a9d403107f440bac6a91af7d</copied_from><description>Set the following values on the form:
+Requested for = Abel Tuter
+and End date = 2026-04-17 00:00:00
+and Start date = 2026-04-18 00:00:00</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 16:14:36</sys_created_on><sys_id>efef52c6a9d403107f440bac6a91afd5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package><sys_policy/><sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope><sys_update_name>sys_atf_step_efef52c6a9d403107f440bac6a91afd5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 16:14:36</sys_updated_on><table>x_cdltd_loaner_r_0_loaner_request</table><test display_value="My First Loaner Request ATF Test copy copy">efef52c6a9d403107f440bac6a91afcd</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=efef52c6a9d403107f440bac6a91afd5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>efef52c6a9d403107f440bac6a91afd5</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 16:14:36</sys_created_on><sys_id>a7ef52c6a9d403107f440bac6a91afd6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 16:14:36</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>efef52c6a9d403107f440bac6a91afd5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 16:14:36</sys_created_on><sys_id>2bef52c6a9d403107f440bac6a91afd6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 16:14:36</sys_updated_on><value>x_cdltd_loaner_r_0_loaner_request</value><variable display_value="Table">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>efef52c6a9d403107f440bac6a91afd5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 16:14:36</sys_created_on><sys_id>abef52c6a9d403107f440bac6a91afd6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 16:14:36</sys_updated_on><value>requested_for=62826bf03710200044e0bfc8bcbe5df1^end_date=2026-04-17 00:00:00^start_date=2026-04-18 00:00:00^EQ</value><variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=efef52c6a9d403107f440bac6a91afd5"/></record_update>]]></payload>
+        <payload_hash>1676829534</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>b929d4caa91003107f440bac6a91af1b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 16:14:36</sys_created_on>
+        <sys_id>a7ef52c6a9d403107f440bac6a91afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19da15f62aa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 16:14:36</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>63ef52c6edd40310b3793844780b7bd7</update_guid>
+        <update_guid_history>63ef52c6edd40310b3793844780b7bd7:1676829534</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 17:29:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>01f4dd6e72bf4064812103a78af51c10</sys_id>
+        <sys_metadata>efef52c6a9d403107f440bac6a91afd5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope>
+        <sys_scope_delete display_value="">484d717f3c7a4489a54912280ca647b1</sys_scope_delete>
+        <sys_update_name>sys_atf_step_efef52c6a9d403107f440bac6a91afd5</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_efef52c6a9d403107f440bac6a91afd5">a7ef52c6a9d403107f440bac6a91afd7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 17:29:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

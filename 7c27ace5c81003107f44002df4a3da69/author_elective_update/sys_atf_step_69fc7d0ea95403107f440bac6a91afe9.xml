@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Create and impersonate user with the following values:
+First name = Test
+and Last name = User
+With groups: Loaner Request Admins</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:31</sys_created_on>
+        <sys_id>69fc7d0ea95403107f440bac6a91afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope>
+        <sys_update_name>sys_atf_step_69fc7d0ea95403107f440bac6a91afe9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:31</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="My First Loaner Request ATF Test">dbbcb90ea95403107f440bac6a91af9f</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=69fc7d0ea95403107f440bac6a91afe9"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69fc7d0ea95403107f440bac6a91afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:32</sys_created_on>
+        <sys_id>c02dfd0ea95403107f440bac6a91afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:32</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69fc7d0ea95403107f440bac6a91afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:32</sys_created_on>
+        <sys_id>842dfd0ea95403107f440bac6a91afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:32</sys_updated_on>
+        <value/>
+        <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69fc7d0ea95403107f440bac6a91afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:32</sys_created_on>
+        <sys_id>082dfd0ea95403107f440bac6a91afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:32</sys_updated_on>
+        <value/>
+        <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69fc7d0ea95403107f440bac6a91afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:32</sys_created_on>
+        <sys_id>882dfd0ea95403107f440bac6a91afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:32</sys_updated_on>
+        <value>dc2a940ea91003107f440bac6a91aff4</value>
+        <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69fc7d0ea95403107f440bac6a91afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:32</sys_created_on>
+        <sys_id>0c2dfd0ea95403107f440bac6a91afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:32</sys_updated_on>
+        <value/>
+        <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69fc7d0ea95403107f440bac6a91afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:32</sys_created_on>
+        <sys_id>8c2dfd0ea95403107f440bac6a91afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:32</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69fc7d0ea95403107f440bac6a91afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:32</sys_created_on>
+        <sys_id>002dfd0ea95403107f440bac6a91afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:32</sys_updated_on>
+        <value/>
+        <variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=69fc7d0ea95403107f440bac6a91afe9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</application>
+        <file_path/>
+        <instance_id>b082a115971843906ec2301e6253af32</instance_id>
+        <instance_name>nowlearning-nlinst04075311-14ynu-0001</instance_name>
+        <name>sys_atf_step_69fc7d0ea95403107f440bac6a91afe9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Create and impersonate user with the following values:
+First name = Test
+and Last name = User
+With groups: Loaner Request Admins</description><display_name>Create a User</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 13:42:31</sys_created_on><sys_id>69fc7d0ea95403107f440bac6a91afe9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create a User</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package><sys_policy/><sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope><sys_update_name>sys_atf_step_69fc7d0ea95403107f440bac6a91afe9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 13:42:31</sys_updated_on><table>sys_user</table><test display_value="My First Loaner Request ATF Test">dbbcb90ea95403107f440bac6a91af9f</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=69fc7d0ea95403107f440bac6a91afe9"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69fc7d0ea95403107f440bac6a91afe9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 13:42:32</sys_created_on><sys_id>c02dfd0ea95403107f440bac6a91afb7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 13:42:32</sys_updated_on><value>1</value><variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69fc7d0ea95403107f440bac6a91afe9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 13:42:32</sys_created_on><sys_id>842dfd0ea95403107f440bac6a91afb7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 13:42:32</sys_updated_on><value/><variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69fc7d0ea95403107f440bac6a91afe9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 13:42:32</sys_created_on><sys_id>082dfd0ea95403107f440bac6a91afb7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 13:42:32</sys_updated_on><value/><variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69fc7d0ea95403107f440bac6a91afe9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 13:42:32</sys_created_on><sys_id>882dfd0ea95403107f440bac6a91afb7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 13:42:32</sys_updated_on><value>dc2a940ea91003107f440bac6a91aff4</value><variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69fc7d0ea95403107f440bac6a91afe9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 13:42:32</sys_created_on><sys_id>0c2dfd0ea95403107f440bac6a91afb7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 13:42:32</sys_updated_on><value/><variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69fc7d0ea95403107f440bac6a91afe9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 13:42:32</sys_created_on><sys_id>8c2dfd0ea95403107f440bac6a91afb7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 13:42:32</sys_updated_on><value>sys_user</value><variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69fc7d0ea95403107f440bac6a91afe9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 13:42:32</sys_created_on><sys_id>002dfd0ea95403107f440bac6a91afb8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 13:42:32</sys_updated_on><value/><variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d^id=69fc7d0ea95403107f440bac6a91afe9"/></record_update>]]></payload>
+        <payload_hash>616772241</payload_hash>
+        <record_name>Create a User</record_name>
+        <reverted_from/>
+        <source>b929d4caa91003107f440bac6a91af1b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 13:42:32</sys_created_on>
+        <sys_id>442dfd0ea95403107f440bac6a91afb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19da0d429f10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 13:42:32</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>002dfd0e865403108a8f7a188a274bb9</update_guid>
+        <update_guid_history>002dfd0e865403108a8f7a188a274bb9:616772241</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 17:29:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>186f9353cbf6499098bf85c25660a900</sys_id>
+        <sys_metadata>69fc7d0ea95403107f440bac6a91afe9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope>
+        <sys_scope_delete display_value="">484d717f3c7a4489a54912280ca647b1</sys_scope_delete>
+        <sys_update_name>sys_atf_step_69fc7d0ea95403107f440bac6a91afe9</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_69fc7d0ea95403107f440bac6a91afe9">442dfd0ea95403107f440bac6a91afb9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 17:29:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
