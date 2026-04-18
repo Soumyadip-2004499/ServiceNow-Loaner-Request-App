@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>text</name>
+        <rest_message_function display_value="Default GET">76c89b06a99803107f440bac6a91af64</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 20:29:22</sys_created_on>
+        <sys_id>a6395346a99803107f440bac6a91afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_a6395346a99803107f440bac6a91afae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 20:29:22</sys_updated_on>
+        <value/>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</application>
+        <file_path/>
+        <instance_id>b082a115971843906ec2301e6253af32</instance_id>
+        <instance_name>nowlearning-nlinst04075311-14ynu-0001</instance_name>
+        <name>sys_rest_message_fn_headers_a6395346a99803107f440bac6a91afae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>text</name><rest_message_function display_value="Default GET">76c89b06a99803107f440bac6a91af64</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-18 20:29:22</sys_created_on><sys_id>a6395346a99803107f440bac6a91afae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package><sys_policy/><sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope><sys_update_name>sys_rest_message_fn_headers_a6395346a99803107f440bac6a91afae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-18 20:29:22</sys_updated_on><value/></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>1338242716</payload_hash>
+        <record_name>text</record_name>
+        <reverted_from/>
+        <source>b929d4caa91003107f440bac6a91af1b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 20:29:22</sys_created_on>
+        <sys_id>f33adf46a99803107f440bac6a91af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19da248a4a50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 20:29:22</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>bf3adf464e980310880cd76fa1575274</update_guid>
+        <update_guid_history>bf3adf464e980310880cd76fa1575274:1338242716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 20:29:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>158bca0d3d2d49da842e7f4270dd2a24</sys_id>
+        <sys_metadata>a6395346a99803107f440bac6a91afae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
+        <sys_parent display_value="Default GET">76c89b06a99803107f440bac6a91af64</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope>
+        <sys_scope_delete display_value="">484d717f3c7a4489a54912280ca647b1</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_a6395346a99803107f440bac6a91afae</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_a6395346a99803107f440bac6a91afae">f33adf46a99803107f440bac6a91af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 20:29:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

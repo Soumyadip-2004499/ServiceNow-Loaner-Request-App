@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Yogododji, Africa</center_address>
+        <center_latitude/>
+        <center_longitude/>
+        <controls_size>large</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>2</initial_zoom>
+        <name>x_cdltd_loaner_r_0_Requested for Locatio</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[// Let's go get all the active Loaner Requests where the requestor has a _city and country_ in their user record
+var gr = new GlideRecord('x_cdltd_loaner_r_0_loaner_request');
+gr.addEncodedQuery("active=true^requested_for.cityISNOTEMPTY^requested_for.countryISNOTEMPTY");
+gr.orderBy('number');
+gr.query();
+
+// Now, loop through these results...
+while (gr.next()) {
+
+    // ...but, within THESE results, let's get the LABEL of the country field (via the sys_choice table), since our REST provider prefers that.
+    var countrygr = new GlideRecord('sys_choice');
+    countrygr.addQuery('name', 'sys_user');
+    countrygr.addQuery('element', 'country');
+    countrygr.addQuery('language', 'en');
+    countrygr.addQuery('value', gr.requested_for.country);
+    countrygr.query();
+
+    if (countrygr.next()) {
+        // --- You'll paste Previewed Script below, and modify it per lab instructions --- 
+        // --- Add copied REST Message Script BELOW this line ----------------------------
+
+        var query = gr.requested_for.city + "," + countrygr.label;
+        var r = new sn_ws.RESTMessageV2('x_cdltd_loaner_r_0.Get Let Long', 'Default GET');
+        r.setStringParameterNoEscape('text', query);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+
+
+        // --- Add copied REST Message Script ABOVE this line ---------------------------- 
+    }
+
+    // Extract latitude and longitude values from REST Message response in JSON format
+    var responseJSON = JSON.parse(responseBody);
+    var myLat = responseJSON.features[0].properties.lat;
+    var myLong = responseJSON.features[0].properties.lon;
+
+
+
+    // Plot each 'Requested for' location on a Google map
+    var item = map.addItem(gr);
+    item.latitude = String(myLat);
+    item.longitude = String(myLong);
+    item.dialog_title = gr.getDisplayValue();
+    item.icon = "https://maps.google.com/mapfiles/ms/micons/yellow.png";
+    item.icon_width = "32";
+    item.icon_height = "32";
+
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>Requested for Locations</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-18 20:34:03</sys_created_on>
+        <sys_id>4e3b1f86a99803107f440bac6a91af92</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_cdltd_loaner_r_0_Requested for Locatio</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">7c27ace5c81003107f44002df4a3da69</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">7c27ace5c81003107f44002df4a3da69</sys_scope>
+        <sys_update_name>cmn_map_page_4e3b1f86a99803107f440bac6a91af92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-18 20:52:42</sys_updated_on>
+        <type>terrain</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>
